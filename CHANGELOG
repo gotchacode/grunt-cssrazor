@@ -27,3 +27,8 @@ v0.1.6
   date: Dec 03, 2013
   changes:
     - Remove unused lodash dependency
+
+v0.1.7
+  date: Dec 03, 2013
+  changes:
+    - devDependencies -> dependencies
