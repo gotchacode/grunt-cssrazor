@@ -33,7 +33,7 @@
   "dependencies": {
     "grunt": "latest",
     "grunt-contrib": "latest",
-    "node-phantom-simple": "latest",
+    "node-phantom-simple": "latest"
   },
   "keywords": [
     "gruntplugin"
