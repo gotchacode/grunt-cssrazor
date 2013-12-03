@@ -33,7 +33,7 @@
   "devDependencies": {
     "grunt": "latest",
     "node-phantom-simple": "latest",
-    "grunt-contrib": "latest",
+    "grunt-contrib": "latest"
   },
   "keywords": [
     "gruntplugin"
