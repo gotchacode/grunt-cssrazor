@@ -47,8 +47,7 @@ It's advisable to run grunt-contrib-cssmin after this task to make sure your CSS
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt][grunt].
 
-## Release History
-* 12/3/13 - v0.1.0 - Initial release.
+## Initially released on 3 december 2013
 
 ## License
 Copyright (c) 2013 Ruben Stolk

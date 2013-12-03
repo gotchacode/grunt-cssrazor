@@ -3,3 +3,7 @@ v0.1.0:
   changes:
     - Initial release
 
+v0.1.1:
+  date: Dec 03, 2013
+  changes:
+    - Remove esprima dependency
