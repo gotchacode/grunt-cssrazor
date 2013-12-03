@@ -1,7 +1,7 @@
 {
   "name": "grunt-cssrazor",
   "description": "Produces cleaned CSS based on actually used DOM",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "homepage": "https://github.com/changer/grunt-cssrazor",
   "author": {
     "name": "Ruben Stolk",

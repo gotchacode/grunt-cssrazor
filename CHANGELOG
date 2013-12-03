@@ -22,3 +22,8 @@ v0.1.4 / 0.1.5:
   date: Dec 03, 2013
   changes:
     - Just load grunt-contrib
+
+v0.1.6
+  date: Dec 03, 2013
+  changes:
+    - Remove unused lodash dependency

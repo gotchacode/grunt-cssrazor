@@ -15,7 +15,6 @@ module.exports = function(grunt) {
         path = require('path'),
         options = this.options(),
         phantom = require('node-phantom-simple'),
-        _ = require('lodash'),
         keys = {},
         regex = /(?:^|\})([^\{]*?)\{/g,
         css = grunt.file.read(options.input),
