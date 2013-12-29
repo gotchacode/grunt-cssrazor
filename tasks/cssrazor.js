@@ -13,6 +13,8 @@ module.exports = function(grunt) {
     var done = this.async(),
         target = this.target,
         path = require('path'),
+        crawl = require('crawl'),
+        lodash = require('lodash'),
         options = this.options(),
         phantom = require('node-phantom-simple'),
         keys = {},
@@ -42,7 +44,21 @@ module.exports = function(grunt) {
     phantom.create(function(err, ph) {
       var count = 0,
           window; // jslint
-
+     urlArray = function() {
+      var result, data = pages, length = data.length, urls = [];
+      crawl.crawl('http://changer.nl', function (err, pages) {
+        if (err) {
+          console.log('Error!');
+          return;
+        }
+        for(var i=0; i < length; i++) {
+          urls.push(data[i].url);
+        }
+        result = _.uniq(urls);
+      });
+      console.log(result);
+      return result;
+     } 
       options.urls.forEach(function(url, i) {
         ph.createPage(function(err, page) {
           page.open(url, function(err, status) {
