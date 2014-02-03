@@ -59,7 +59,7 @@ module.exports = function(grunt) {
       console.log(result);
       return result;
      } 
-      options.urls.forEach(function(url, i) {
+      urlArray.forEach(function(url, i) {
         ph.createPage(function(err, page) {
           page.open(url, function(err, status) {
             page.evaluate(function(keys) {
@@ -81,7 +81,7 @@ module.exports = function(grunt) {
                 keys[key]++;
               });
               count++;
-              if(count === options.urls.length) {
+              if(count === urlArray.length) {
                 success();
               }
             }, keys);

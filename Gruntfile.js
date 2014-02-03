@@ -45,13 +45,8 @@ module.exports = function(grunt) {
     cssrazor: {
       release: {
         options: {
-          urls: [
+          url: [
             'http://www.changer.nl/',
-            'http://www.changer.nl/team.html',
-            'http://www.changer.nl/products.html',
-            'http://www.changer.nl/contact.html',
-            'http://www.changer.nl/portfolio.html',
-            'http://www.changer.nl/legal/'
           ],
           input: 'app.css',
           output: 'release.css'
